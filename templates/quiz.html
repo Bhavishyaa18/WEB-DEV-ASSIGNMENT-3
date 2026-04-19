@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master - Question {{ number }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="progress">Question {{ number }} of {{ total }}</div>
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: {{ (number / total * 100)|int }}%"></div>
+        </div>
+
+        <h2>{{ question.question }}</h2>
+
+        <form action="/quiz" method="POST">
+            <div class="options">
+                {% for option in question.options %}
+                <label class="option">
+                    <input type="radio" name="answer" value="{{ option }}" required>
+                    {{ option }}
+                </label>
+                {% endfor %}
+            </div>
+            <button type="submit" class="btn">Next →</button>
+        </form>
+    </div>
+</body>
+</html>
