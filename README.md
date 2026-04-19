@@ -1,7 +1,7 @@
-🧠 Quiz Master Web Application
-A full-stack web-based quiz application built using HTML, CSS, Python, and Flask. This project demonstrates integration between frontend and backend technologies to create an interactive quiz system.
-📌 Project Overview
-The Quiz Master Application allows users to:
+#🧠 Quiz Master Web Application
+#A full-stack web-based quiz application built using HTML, CSS, Python, and Flask. This project demonstrates integration between frontend and backend technologies to create an interactive quiz system.
+#📌 Project Overview
+#The Quiz Master Application allows users to:
 Start a quiz from the homepage
 Answer multiple-choice questions (MCQs)
 Submit responses
