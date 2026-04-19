@@ -66,7 +66,7 @@ quiz_master/
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/quiz-master.git
+git clone https://github.com/bhavishyaa18/quiz-master.git
 cd quiz-master
 ```
 
@@ -87,15 +87,6 @@ python app.py
 ```
 http://127.0.0.1:5000/
 ```
-
----
-
-## 📊 Evaluation
-
-* Project Structure
-* HTML Design
-* CSS Styling
-* Python Logic
 
 ---
 
